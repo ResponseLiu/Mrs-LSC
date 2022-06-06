@@ -1,0 +1,6 @@
+framework module Pods_Mrs_LSC_Tests {
+  umbrella header "Pods-Mrs-LSC_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

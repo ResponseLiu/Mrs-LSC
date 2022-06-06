@@ -1,0 +1,16 @@
+PODS:
+  - Mrs-LSC (0.1.0)
+
+DEPENDENCIES:
+  - Mrs-LSC (from `../`)
+
+EXTERNAL SOURCES:
+  Mrs-LSC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mrs-LSC: fe0f1597e5fac3b1f89989f9c53623cc77bdd805
+
+PODFILE CHECKSUM: cf2189466f5259d4ffd00ef157a1e970045b2cbb
+
+COCOAPODS: 1.11.3
