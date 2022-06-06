@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Mrs-LSC_Tests' do
+  pod 'Mrs-LSC', :path => '../'
+  
+  
+end
