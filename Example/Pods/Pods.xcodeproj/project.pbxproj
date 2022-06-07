@@ -7,66 +7,115 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25DF43053F586FAECDF9F673031BBFEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		26DABF3C435D3DEE75DB55B54464455B /* Mrs-LSC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94DBB301D04AF3FD292845378A1A1347 /* Mrs-LSC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E49EC853608DEBF3E094B2E8454ADCE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E3294B573E62D986CAA8430E77201D9E /* ReplaceMe.m */; };
-		471467A4A4AFB659023969ED19872D33 /* Pods-Mrs-LSC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDEDE77E08862BB5ACEDCB2BCF89FE /* Pods-Mrs-LSC_Tests-dummy.m */; };
-		77440AE3CC5BDEED8984243A3826A32D /* Pods-Mrs-LSC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F1E63894CF2C649AEEDC99F2A68488 /* Pods-Mrs-LSC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EF8069F859FB65DC2EFC9EC47F5082D /* Mrs-LSC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 736A6ADAD52978CAB1A34585B187F077 /* Mrs-LSC-dummy.m */; };
-		CA416EC22B096163C10BDB1D7BBBC947 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		176F8093A462DA87177AE2DC38C74F3A /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A080E244CAA8AD095D1E89F11CB742 /* FMDB-dummy.m */; };
+		1B19AF5A9C03B163B2952875F081B413 /* Mrs-LSC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 297D7782090278434C5DBEC27832B96A /* Mrs-LSC-dummy.m */; };
+		24CA5241C775CE3C9E9DF46D10859EAA /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 051D6E2573F910561672453266601BCF /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EA5DA43ED09605316A2936A7D4D19F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		32B7E25EECD5D8CD154A0F6263A8EB4F /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 9488B09C822A0939B2EBBA0ABEBC7FFD /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB06038EA8B2F16AA51FF27905876A7 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFAA06D6529A46A1CF929B58AB4B619 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4585CF5705D4E00C8B158BE074FA1BF6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EE99221B6E7CC833DB41C60A303B80B0 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		58D385B7DBB612B6A3A06EA670C015F1 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A758948B5661B234891A685835BBDBC /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E32DEE7D747CB2BB8002CF9DF3853C5 /* SWTestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A1AC0DDE21ED397BDDE763408A3B4 /* SWTestManager.m */; };
+		5F29492846530A428B1198F7A167EA91 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1563F5841D41F052B40684293A62970D /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73C10CDFEAC1F11878A7B3AD41B9907C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4AB93B7E2B8ABF633FEA23DC7E685 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		77BFEC0CB11BC106F2C8251E2E5D8578 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 126F9D2D4215234C6AA9F99CD4699C5E /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7E7BDF4A82C80CDCD6E698F932C705D4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B633A6112B0E37F411C973B4AFE22F /* ReplaceMe.m */; };
+		8246D862087C7890593899AEA5898697 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = A5569C15972A6C122B23FDB9463FB1FC /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8360384C24EED80C2FA8396D6F75B2F5 /* Pods-Mrs-LSC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDEDE77E08862BB5ACEDCB2BCF89FE /* Pods-Mrs-LSC_Tests-dummy.m */; };
+		8FC5684C4684961A4B867842E66D7798 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8159F7616832D337E165E2E0D388B0 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9815AAA07269797129ADB5591FA28BC2 /* SWTestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AC78E5C43033D5BC323689FADA9BE686 /* SWTestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA2DE11C7A15B90294B008D45B70F1AD /* Mrs-LSC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6293D7D4B2B04F0D95AEB11B320435 /* Mrs-LSC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA8F6CD96A1A56F5FB9F47F794D08D60 /* Pods-Mrs-LSC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F1E63894CF2C649AEEDC99F2A68488 /* Pods-Mrs-LSC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E9D06DC51EC50FD682E9678F8AE43D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E4F4341C837952845B0819B55EF826BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EFBCD5F499464C4A8042EBCFAB4ACC1A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB760BD07FEB71A10A8B622FF2FED41B /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F3959A6F13D70E595F272F07FB8B00BD /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = E5470B8C8F95F9CA35357D20E8DB03FC /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B73057A5472F61C90BD3141CCC0DA801 /* PBXContainerItemProxy */ = {
+		3225BB5B6C0B0F5E369B7D78577F7771 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 62110C04931B6841A7B0C91B0100E851;
 			remoteInfo = "Mrs-LSC";
 		};
+		8D0B58372AC93DB925FFBBA25ED00BBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051D6E2573F910561672453266601BCF /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		0DC4AB93B7E2B8ABF633FEA23DC7E685 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
 		0F036B249639C46FCF3A3B2B20857D05 /* Pods-Mrs-LSC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mrs-LSC_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		29D1DFC76306829563EE9E63FAB0B1CA /* Mrs-LSC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mrs-LSC-Info.plist"; sourceTree = "<group>"; };
-		3A5B21FD75AE37EE2DCA2546F546060D /* Mrs-LSC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Mrs-LSC.modulemap"; sourceTree = "<group>"; };
+		126F9D2D4215234C6AA9F99CD4699C5E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		1563F5841D41F052B40684293A62970D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		1F9CE90075E44B079D4F2BDB73891320 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
+		2020700306A9D1DAC2826F60BB8707BE /* FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.release.xcconfig; sourceTree = "<group>"; };
+		27A080E244CAA8AD095D1E89F11CB742 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		297D7782090278434C5DBEC27832B96A /* Mrs-LSC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mrs-LSC-dummy.m"; sourceTree = "<group>"; };
+		2A758948B5661B234891A685835BBDBC /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		32281067724284C9C760532AD18B6F83 /* Mrs-LSC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mrs-LSC.debug.xcconfig"; sourceTree = "<group>"; };
+		336CF42558A44BC2AF4F460FC298E402 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		3A8159F7616832D337E165E2E0D388B0 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		43B633A6112B0E37F411C973B4AFE22F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "Mrs-LSC/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
 		4FCBE2CEA44B38414671E0F62C65BEB0 /* Pods-Mrs-LSC_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Mrs-LSC_Tests"; path = Pods_Mrs_LSC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		64C8A6AE0ECA0049A5E3301643D66C5D /* Mrs-LSC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mrs-LSC.debug.xcconfig"; sourceTree = "<group>"; };
+		5D4C50BF6C6F9594F4D8EF1F3A63BF9B /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
+		6E47ED34874CC32B9F4D640A97D55CF6 /* Mrs-LSC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mrs-LSC-prefix.pch"; sourceTree = "<group>"; };
 		708E9C5B7B41EB6209F418480E966BFD /* Pods-Mrs-LSC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mrs-LSC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		730CE5D252D8340BBAB086A8D91972E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		736A6ADAD52978CAB1A34585B187F077 /* Mrs-LSC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mrs-LSC-dummy.m"; sourceTree = "<group>"; };
-		8BCAAD05196672E8FDF595E53DAF8044 /* Mrs-LSC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mrs-LSC-prefix.pch"; sourceTree = "<group>"; };
-		94DBB301D04AF3FD292845378A1A1347 /* Mrs-LSC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mrs-LSC-umbrella.h"; sourceTree = "<group>"; };
+		8CF82826E6A8A95DEF7DACE8AADDB63E /* Mrs-LSC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mrs-LSC.release.xcconfig"; sourceTree = "<group>"; };
+		9488B09C822A0939B2EBBA0ABEBC7FFD /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		963A1AC0DDE21ED397BDDE763408A3B4 /* SWTestManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWTestManager.m; path = "Mrs-LSC/Classes/SWTestManager.m"; sourceTree = "<group>"; };
+		9BFAA06D6529A46A1CF929B58AB4B619 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A10018A401712DC24D40A270F22DE7F0 /* Mrs-LSC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Mrs-LSC.modulemap"; sourceTree = "<group>"; };
+		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EBD747352A61B0404E042A41173398 /* Mrs-LSC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mrs-LSC-Info.plist"; sourceTree = "<group>"; };
+		A5569C15972A6C122B23FDB9463FB1FC /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
 		A80DC3A364BE6465D30851AAD183A28D /* Pods-Mrs-LSC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mrs-LSC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A902A0B83A04D310AF3ED6EBC0F77E3D /* Mrs-LSC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "Mrs-LSC.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC78E5C43033D5BC323689FADA9BE686 /* SWTestManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWTestManager.h; path = "Mrs-LSC/Classes/SWTestManager.h"; sourceTree = "<group>"; };
 		B4F1E63894CF2C649AEEDC99F2A68488 /* Pods-Mrs-LSC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mrs-LSC_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BB78F4C2ED86736F94B769FEA4FA9CD6 /* Pods-Mrs-LSC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mrs-LSC_Tests.modulemap"; sourceTree = "<group>"; };
 		BF16E1726D0A1C9934AE6971E19B8867 /* Mrs-LSC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Mrs-LSC"; path = Mrs_LSC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAA4E72FC7A347A888487794343070C /* Pods-Mrs-LSC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mrs-LSC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D1360490F2CA195933D95FFD90A35F18 /* Pods-Mrs-LSC_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mrs-LSC_Tests-Info.plist"; sourceTree = "<group>"; };
+		D4185A24C7FED8F630021ABE9A94B958 /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
 		D8051B1181F150AF450272958FE1857B /* Pods-Mrs-LSC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mrs-LSC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D931B3ED945C11E316A9607BA11DB73A /* Mrs-LSC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mrs-LSC.release.xcconfig"; sourceTree = "<group>"; };
-		E3294B573E62D986CAA8430E77201D9E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "Mrs-LSC/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
-		EAD3B25EA8511E1F8C1ABF6E7E552307 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DB760BD07FEB71A10A8B622FF2FED41B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		E5470B8C8F95F9CA35357D20E8DB03FC /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		ED6293D7D4B2B04F0D95AEB11B320435 /* Mrs-LSC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mrs-LSC-umbrella.h"; sourceTree = "<group>"; };
+		EE99221B6E7CC833DB41C60A303B80B0 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
 		FCBDEDE77E08862BB5ACEDCB2BCF89FE /* Pods-Mrs-LSC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mrs-LSC_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D963ECD365525E76BA7CD6BD0F9459F /* Frameworks */ = {
+		46CE7976A327A98FA11B937B79401E29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25DF43053F586FAECDF9F673031BBFEA /* Foundation.framework in Frameworks */,
+				B8E9D06DC51EC50FD682E9678F8AE43D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3BD68B1DFA9A0D4DE68AAE33B273AA5 /* Frameworks */ = {
+		AD2D3FE4E7E033339849AEBBD3DB762F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA416EC22B096163C10BDB1D7BBBC947 /* Foundation.framework in Frameworks */,
+				2EA5DA43ED09605316A2936A7D4D19F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD600D7E4607D5B3062E87594779E97A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F4341C837952845B0819B55EF826BB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,23 +130,47 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		19B78DD3EDAE679A2C7573DC45D7327A /* Products */ = {
+		208199594CFF6D5EC3F50DEA5C337403 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */,
 				BF16E1726D0A1C9934AE6971E19B8867 /* Mrs-LSC */,
 				4FCBE2CEA44B38414671E0F62C65BEB0 /* Pods-Mrs-LSC_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		374D2CC141F4D667CFB579BE6D321213 /* Pod */ = {
+		322FF0D1EDF271FFAB2E148C2236F703 /* standard */ = {
 			isa = PBXGroup;
 			children = (
-				730CE5D252D8340BBAB086A8D91972E0 /* LICENSE */,
-				A902A0B83A04D310AF3ED6EBC0F77E3D /* Mrs-LSC.podspec */,
-				EAD3B25EA8511E1F8C1ABF6E7E552307 /* README.md */,
+				E5470B8C8F95F9CA35357D20E8DB03FC /* FMDatabase.h */,
+				EE99221B6E7CC833DB41C60A303B80B0 /* FMDatabase.m */,
+				051D6E2573F910561672453266601BCF /* FMDatabaseAdditions.h */,
+				DB760BD07FEB71A10A8B622FF2FED41B /* FMDatabaseAdditions.m */,
+				2A758948B5661B234891A685835BBDBC /* FMDatabasePool.h */,
+				0DC4AB93B7E2B8ABF633FEA23DC7E685 /* FMDatabasePool.m */,
+				1563F5841D41F052B40684293A62970D /* FMDatabaseQueue.h */,
+				126F9D2D4215234C6AA9F99CD4699C5E /* FMDatabaseQueue.m */,
+				9488B09C822A0939B2EBBA0ABEBC7FFD /* FMDB.h */,
+				A5569C15972A6C122B23FDB9463FB1FC /* FMResultSet.h */,
+				3A8159F7616832D337E165E2E0D388B0 /* FMResultSet.m */,
 			);
-			name = Pod;
+			name = standard;
+			sourceTree = "<group>";
+		};
+		47A048424D908B1C3B7BAEA54A92988A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F9CE90075E44B079D4F2BDB73891320 /* FMDB.modulemap */,
+				27A080E244CAA8AD095D1E89F11CB742 /* FMDB-dummy.m */,
+				D4185A24C7FED8F630021ABE9A94B958 /* FMDB-Info.plist */,
+				336CF42558A44BC2AF4F460FC298E402 /* FMDB-prefix.pch */,
+				9BFAA06D6529A46A1CF929B58AB4B619 /* FMDB-umbrella.h */,
+				5D4C50BF6C6F9594F4D8EF1F3A63BF9B /* FMDB.debug.xcconfig */,
+				2020700306A9D1DAC2826F60BB8707BE /* FMDB.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -108,47 +181,59 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8FB53115DBD4828B622B9517B5F0B339 /* Support Files */ = {
+		86B0BE97ABD11E4EF0E8A6522B11F3A3 /* Mrs-LSC */ = {
 			isa = PBXGroup;
 			children = (
-				3A5B21FD75AE37EE2DCA2546F546060D /* Mrs-LSC.modulemap */,
-				736A6ADAD52978CAB1A34585B187F077 /* Mrs-LSC-dummy.m */,
-				29D1DFC76306829563EE9E63FAB0B1CA /* Mrs-LSC-Info.plist */,
-				8BCAAD05196672E8FDF595E53DAF8044 /* Mrs-LSC-prefix.pch */,
-				94DBB301D04AF3FD292845378A1A1347 /* Mrs-LSC-umbrella.h */,
-				64C8A6AE0ECA0049A5E3301643D66C5D /* Mrs-LSC.debug.xcconfig */,
-				D931B3ED945C11E316A9607BA11DB73A /* Mrs-LSC.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Mrs-LSC";
-			sourceTree = "<group>";
-		};
-		A9B3247BE1C1DA7C4890304AFD09892B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CC78D29554DC9B631AE8954F04456B8F /* Mrs-LSC */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CC78D29554DC9B631AE8954F04456B8F /* Mrs-LSC */ = {
-			isa = PBXGroup;
-			children = (
-				E3294B573E62D986CAA8430E77201D9E /* ReplaceMe.m */,
-				374D2CC141F4D667CFB579BE6D321213 /* Pod */,
-				8FB53115DBD4828B622B9517B5F0B339 /* Support Files */,
+				43B633A6112B0E37F411C973B4AFE22F /* ReplaceMe.m */,
+				AC78E5C43033D5BC323689FADA9BE686 /* SWTestManager.h */,
+				963A1AC0DDE21ED397BDDE763408A3B4 /* SWTestManager.m */,
+				C46FB7F1539807AECF28CBAC0213DE4D /* Support Files */,
 			);
 			name = "Mrs-LSC";
-			path = ../..;
+			path = "Mrs-LSC";
+			sourceTree = "<group>";
+		};
+		914E9D01EB24D020F092E9F6C0284888 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				322FF0D1EDF271FFAB2E148C2236F703 /* standard */,
+				47A048424D908B1C3B7BAEA54A92988A /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		C07B5F50A9DCA4B840F3125BDD863E0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				914E9D01EB24D020F092E9F6C0284888 /* FMDB */,
+				86B0BE97ABD11E4EF0E8A6522B11F3A3 /* Mrs-LSC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C46FB7F1539807AECF28CBAC0213DE4D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A10018A401712DC24D40A270F22DE7F0 /* Mrs-LSC.modulemap */,
+				297D7782090278434C5DBEC27832B96A /* Mrs-LSC-dummy.m */,
+				A4EBD747352A61B0404E042A41173398 /* Mrs-LSC-Info.plist */,
+				6E47ED34874CC32B9F4D640A97D55CF6 /* Mrs-LSC-prefix.pch */,
+				ED6293D7D4B2B04F0D95AEB11B320435 /* Mrs-LSC-umbrella.h */,
+				32281067724284C9C760532AD18B6F83 /* Mrs-LSC.debug.xcconfig */,
+				8CF82826E6A8A95DEF7DACE8AADDB63E /* Mrs-LSC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mrs-LSC";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A9B3247BE1C1DA7C4890304AFD09892B /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				19B78DD3EDAE679A2C7573DC45D7327A /* Products */,
+				C07B5F50A9DCA4B840F3125BDD863E0D /* Pods */,
+				208199594CFF6D5EC3F50DEA5C337403 /* Products */,
 				110B59B04CC0F57C8AFFAD8292BDA97C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -181,19 +266,34 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		326BD4E0A51FFE9B2F08F8ABCA52051C /* Headers */ = {
+		1D8E4317C43E801B146629D24251A1E5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77440AE3CC5BDEED8984243A3826A32D /* Pods-Mrs-LSC_Tests-umbrella.h in Headers */,
+				F3959A6F13D70E595F272F07FB8B00BD /* FMDatabase.h in Headers */,
+				24CA5241C775CE3C9E9DF46D10859EAA /* FMDatabaseAdditions.h in Headers */,
+				58D385B7DBB612B6A3A06EA670C015F1 /* FMDatabasePool.h in Headers */,
+				5F29492846530A428B1198F7A167EA91 /* FMDatabaseQueue.h in Headers */,
+				32B7E25EECD5D8CD154A0F6263A8EB4F /* FMDB.h in Headers */,
+				3EB06038EA8B2F16AA51FF27905876A7 /* FMDB-umbrella.h in Headers */,
+				8246D862087C7890593899AEA5898697 /* FMResultSet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4EFC6C9868D0124299F12F4B0B23BF79 /* Headers */ = {
+		73EBFB33F4BE6DF58E083DF224DB17DD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26DABF3C435D3DEE75DB55B54464455B /* Mrs-LSC-umbrella.h in Headers */,
+				AA2DE11C7A15B90294B008D45B70F1AD /* Mrs-LSC-umbrella.h in Headers */,
+				9815AAA07269797129ADB5591FA28BC2 /* SWTestManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99B6FFA024E7663A1DFDACB0B480EB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8F6CD96A1A56F5FB9F47F794D08D60 /* Pods-Mrs-LSC_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,12 +302,12 @@
 /* Begin PBXNativeTarget section */
 		62110C04931B6841A7B0C91B0100E851 /* Mrs-LSC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5527C007ADCE6CD442218D34201980B /* Build configuration list for PBXNativeTarget "Mrs-LSC" */;
+			buildConfigurationList = A111C84925DC6F80A741EB1330CE5E57 /* Build configuration list for PBXNativeTarget "Mrs-LSC" */;
 			buildPhases = (
-				4EFC6C9868D0124299F12F4B0B23BF79 /* Headers */,
-				4BFD302B2FADC785A3706EB1DD73086E /* Sources */,
-				A3BD68B1DFA9A0D4DE68AAE33B273AA5 /* Frameworks */,
-				51F2B80BED10151002368F959D2CD7F0 /* Resources */,
+				73EBFB33F4BE6DF58E083DF224DB17DD /* Headers */,
+				33FB634C543954AC993423B3D893B1DF /* Sources */,
+				AD2D3FE4E7E033339849AEBBD3DB762F /* Frameworks */,
+				05006492F4B0ACB7C29E33EA63F4BC23 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -218,19 +318,38 @@
 			productReference = BF16E1726D0A1C9934AE6971E19B8867 /* Mrs-LSC */;
 			productType = "com.apple.product-type.framework";
 		};
-		9A76D9FBDFEC98B8C4FCEBE4892CE5A5 /* Pods-Mrs-LSC_Tests */ = {
+		8592E0E389D40AC17881400ADC67ABC0 /* FMDB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 868546B5B73A8CA6064FA03AFF187FE7 /* Build configuration list for PBXNativeTarget "Pods-Mrs-LSC_Tests" */;
+			buildConfigurationList = 69FA85BFF587E84927EC6224938E617F /* Build configuration list for PBXNativeTarget "FMDB" */;
 			buildPhases = (
-				326BD4E0A51FFE9B2F08F8ABCA52051C /* Headers */,
-				4FE027F2525A97FAF3267D2DED2EDC94 /* Sources */,
-				3D963ECD365525E76BA7CD6BD0F9459F /* Frameworks */,
-				354BEBA2C31A3660D8BDA05041D0EA2F /* Resources */,
+				1D8E4317C43E801B146629D24251A1E5 /* Headers */,
+				4A16EBB77E9792704EF119C3C0F5FF30 /* Sources */,
+				46CE7976A327A98FA11B937B79401E29 /* Frameworks */,
+				391A0FAA8EEAFC4A6C713A0DC407ABB7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1274B5219BB83B78E463C618EA52CB41 /* PBXTargetDependency */,
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A76D9FBDFEC98B8C4FCEBE4892CE5A5 /* Pods-Mrs-LSC_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45561EA27D00F573BA2968F38E6C401C /* Build configuration list for PBXNativeTarget "Pods-Mrs-LSC_Tests" */;
+			buildPhases = (
+				E99B6FFA024E7663A1DFDACB0B480EB3 /* Headers */,
+				952C46B231413DF9DA3EC6CB49C4A658 /* Sources */,
+				FD600D7E4607D5B3062E87594779E97A /* Frameworks */,
+				A7073A69C8FB2B9EF4E606884AD00EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FD0407A0B54C4663F7BEE51853EDF1B /* PBXTargetDependency */,
+				1207F1372398BEF3D9A35723A5A74663 /* PBXTargetDependency */,
 			);
 			name = "Pods-Mrs-LSC_Tests";
 			productName = Pods_Mrs_LSC_Tests;
@@ -255,10 +374,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 19B78DD3EDAE679A2C7573DC45D7327A /* Products */;
+			productRefGroup = 208199594CFF6D5EC3F50DEA5C337403 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				8592E0E389D40AC17881400ADC67ABC0 /* FMDB */,
 				62110C04931B6841A7B0C91B0100E851 /* Mrs-LSC */,
 				9A76D9FBDFEC98B8C4FCEBE4892CE5A5 /* Pods-Mrs-LSC_Tests */,
 			);
@@ -266,14 +386,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		354BEBA2C31A3660D8BDA05041D0EA2F /* Resources */ = {
+		05006492F4B0ACB7C29E33EA63F4BC23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51F2B80BED10151002368F959D2CD7F0 /* Resources */ = {
+		391A0FAA8EEAFC4A6C713A0DC407ABB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7073A69C8FB2B9EF4E606884AD00EB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,35 +410,118 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4BFD302B2FADC785A3706EB1DD73086E /* Sources */ = {
+		33FB634C543954AC993423B3D893B1DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EF8069F859FB65DC2EFC9EC47F5082D /* Mrs-LSC-dummy.m in Sources */,
-				3E49EC853608DEBF3E094B2E8454ADCE /* ReplaceMe.m in Sources */,
+				1B19AF5A9C03B163B2952875F081B413 /* Mrs-LSC-dummy.m in Sources */,
+				7E7BDF4A82C80CDCD6E698F932C705D4 /* ReplaceMe.m in Sources */,
+				5E32DEE7D747CB2BB8002CF9DF3853C5 /* SWTestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FE027F2525A97FAF3267D2DED2EDC94 /* Sources */ = {
+		4A16EBB77E9792704EF119C3C0F5FF30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				471467A4A4AFB659023969ED19872D33 /* Pods-Mrs-LSC_Tests-dummy.m in Sources */,
+				4585CF5705D4E00C8B158BE074FA1BF6 /* FMDatabase.m in Sources */,
+				EFBCD5F499464C4A8042EBCFAB4ACC1A /* FMDatabaseAdditions.m in Sources */,
+				73C10CDFEAC1F11878A7B3AD41B9907C /* FMDatabasePool.m in Sources */,
+				77BFEC0CB11BC106F2C8251E2E5D8578 /* FMDatabaseQueue.m in Sources */,
+				176F8093A462DA87177AE2DC38C74F3A /* FMDB-dummy.m in Sources */,
+				8FC5684C4684961A4B867842E66D7798 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952C46B231413DF9DA3EC6CB49C4A658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8360384C24EED80C2FA8396D6F75B2F5 /* Pods-Mrs-LSC_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1274B5219BB83B78E463C618EA52CB41 /* PBXTargetDependency */ = {
+		1207F1372398BEF3D9A35723A5A74663 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Mrs-LSC";
 			target = 62110C04931B6841A7B0C91B0100E851 /* Mrs-LSC */;
-			targetProxy = B73057A5472F61C90BD3141CCC0DA801 /* PBXContainerItemProxy */;
+			targetProxy = 3225BB5B6C0B0F5E369B7D78577F7771 /* PBXContainerItemProxy */;
+		};
+		1FD0407A0B54C4663F7BEE51853EDF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = 8D0B58372AC93DB925FFBBA25ED00BBE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0CED002C2B57A9042C388A7B3891F50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF82826E6A8A95DEF7DACE8AADDB63E /* Mrs-LSC.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mrs-LSC/Mrs-LSC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mrs-LSC/Mrs-LSC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mrs-LSC/Mrs-LSC.modulemap";
+				PRODUCT_MODULE_NAME = Mrs_LSC;
+				PRODUCT_NAME = Mrs_LSC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		287B0D012494AB0F23C818254DA0CDCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8051B1181F150AF450272958FE1857B /* Pods-Mrs-LSC_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mrs-LSC_Tests/Pods-Mrs-LSC_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mrs-LSC_Tests/Pods-Mrs-LSC_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -440,11 +650,10 @@
 			};
 			name = Debug;
 		};
-		9B96F21ED134B8A0143C927325241CC0 /* Debug */ = {
+		8CC1C3DEBCFFCB9CD15A2E14E531F6EC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8051B1181F150AF450272958FE1857B /* Pods-Mrs-LSC_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5D4C50BF6C6F9594F4D8EF1F3A63BF9B /* FMDB.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -453,26 +662,56 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Mrs-LSC_Tests/Pods-Mrs-LSC_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Mrs-LSC_Tests/Pods-Mrs-LSC_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D7C2EC017A1140486BA481F4DC973947 /* Release */ = {
+		B9618F02923769D910103AFCA0F17675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2020700306A9D1DAC2826F60BB8707BE /* FMDB.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3E058A041BD3DEB96898C8055CCB0AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CDAA4E72FC7A347A888487794343070C /* Pods-Mrs-LSC_Tests.release.xcconfig */;
 			buildSettings = {
@@ -505,40 +744,9 @@
 			};
 			name = Release;
 		};
-		DB03135F88032DCEA876E152CADEA11B /* Release */ = {
+		E637182277C0B767735EFA79CBBC1CF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D931B3ED945C11E316A9607BA11DB73A /* Mrs-LSC.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Mrs-LSC/Mrs-LSC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mrs-LSC/Mrs-LSC-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Mrs-LSC/Mrs-LSC.modulemap";
-				PRODUCT_MODULE_NAME = Mrs_LSC;
-				PRODUCT_NAME = Mrs_LSC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FBD9E7675A4F004B0B30D71D11A30D25 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64C8A6AE0ECA0049A5E3301643D66C5D /* Mrs-LSC.debug.xcconfig */;
+			baseConfigurationReference = 32281067724284C9C760532AD18B6F83 /* Mrs-LSC.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -569,6 +777,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		45561EA27D00F573BA2968F38E6C401C /* Build configuration list for PBXNativeTarget "Pods-Mrs-LSC_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287B0D012494AB0F23C818254DA0CDCF /* Debug */,
+				C3E058A041BD3DEB96898C8055CCB0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -578,20 +795,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		868546B5B73A8CA6064FA03AFF187FE7 /* Build configuration list for PBXNativeTarget "Pods-Mrs-LSC_Tests" */ = {
+		69FA85BFF587E84927EC6224938E617F /* Build configuration list for PBXNativeTarget "FMDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B96F21ED134B8A0143C927325241CC0 /* Debug */,
-				D7C2EC017A1140486BA481F4DC973947 /* Release */,
+				8CC1C3DEBCFFCB9CD15A2E14E531F6EC /* Debug */,
+				B9618F02923769D910103AFCA0F17675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5527C007ADCE6CD442218D34201980B /* Build configuration list for PBXNativeTarget "Mrs-LSC" */ = {
+		A111C84925DC6F80A741EB1330CE5E57 /* Build configuration list for PBXNativeTarget "Mrs-LSC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBD9E7675A4F004B0B30D71D11A30D25 /* Debug */,
-				DB03135F88032DCEA876E152CADEA11B /* Release */,
+				E637182277C0B767735EFA79CBBC1CF9 /* Debug */,
+				0CED002C2B57A9042C388A7B3891F50E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of Mrs-LSC.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/liusc/Mrs-LSC",
+  "homepage": "https://github.com/ResponseLiu/Mrs-LSC",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "liusc": "liusc@sijibao.com"
   },
   "source": {
-    "git": "https://github.com/liusc/Mrs-LSC.git",
+    "git": "https://github.com/ResponseLiu/Mrs-LSC.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -1,16 +1,31 @@
 PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - Mrs-LSC (0.1.0)
 
 DEPENDENCIES:
-  - Mrs-LSC (from `../`)
+  - FMDB
+  - Mrs-LSC (from `https://github.com/ResponseLiu/Mrs-LSC.git`, tag `0.1.0`)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - FMDB
 
 EXTERNAL SOURCES:
   Mrs-LSC:
-    :path: "../"
+    :git: https://github.com/ResponseLiu/Mrs-LSC.git
+    :tag: 0.1.0
+
+CHECKOUT OPTIONS:
+  Mrs-LSC:
+    :git: https://github.com/ResponseLiu/Mrs-LSC.git
+    :tag: 0.1.0
 
 SPEC CHECKSUMS:
-  Mrs-LSC: fe0f1597e5fac3b1f89989f9c53623cc77bdd805
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Mrs-LSC: 6590551bbbb92377faae5210233a8cf947fbef10
 
-PODFILE CHECKSUM: cf2189466f5259d4ffd00ef157a1e970045b2cbb
+PODFILE CHECKSUM: 4843bb4aa67518fafaaab05d51297adab3725ec0
 
 COCOAPODS: 1.11.3

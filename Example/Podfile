@@ -1,6 +1,7 @@
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 use_frameworks!
 target 'Mrs-LSC_Tests' do
-  pod 'Mrs-LSC', :path => '../'
-  
+  pod 'Mrs-LSC',:git=>'https://github.com/ResponseLiu/Mrs-LSC.git',:tag=>'0.1.0'
+  pod 'FMDB'
   
 end
