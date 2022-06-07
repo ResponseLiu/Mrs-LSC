@@ -1,6 +1,0 @@
-framework module Mrs_LSC {
-  umbrella header "Mrs-LSC-umbrella.h"
-
-  export *
-  module * { export * }
-}
